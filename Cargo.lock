@@ -1096,7 +1096,7 @@ dependencies = [
  "hex",
  "mpl-token-metadata 1.13.2",
  "rand 0.7.3",
- "raydium-amm-v3",
+ "raydium-amm-v3 0.1.0 (git+https://github.com/raydium-io/raydium-clmm.git)",
  "regex",
  "serde",
  "serde_json",
@@ -3290,6 +3290,23 @@ dependencies = [
  "proptest",
  "quickcheck",
  "rand 0.8.5",
+ "solana-program",
+ "solana-security-txt",
+ "spl-memo 4.0.0",
+ "spl-token-metadata-interface",
+ "uint",
+]
+
+[[package]]
+name = "raydium-amm-v3"
+version = "0.1.0"
+source = "git+https://github.com/raydium-io/raydium-clmm.git#66dbfbfcec6b050e410e38e7cb4da8a58a877aa1"
+dependencies = [
+ "anchor-lang",
+ "anchor-spl",
+ "arrayref",
+ "bytemuck",
+ "mpl-token-metadata 1.13.2",
  "solana-program",
  "solana-security-txt",
  "spl-memo 4.0.0",
