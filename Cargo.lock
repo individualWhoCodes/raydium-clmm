@@ -3286,6 +3286,7 @@ dependencies = [
  "anchor-spl",
  "arrayref",
  "bytemuck",
+ "mpl-token-metadata 1.13.2",
  "proptest",
  "quickcheck",
  "rand 0.8.5",
