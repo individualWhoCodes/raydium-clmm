@@ -4,6 +4,12 @@ version = "0.1.0"
 rust-version = "1.56"
 edition = "2021"
 
+# This line specifies this is a library crate
+[lib]
+name = "client"  # The name of your library (usually matches package name)
+path = "src/lib.rs"  # Path to your library entry point
+
+
 [dependencies]
 anchor-client = "0.29.0"
 anchor-lang = "0.29.0"
